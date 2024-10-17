@@ -1,0 +1,22 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Jeweller Glassware Store",
+    "name": "SIMONT",
+    "description": "Discover high quality accessories, gems, collectors items, jewellery and more at SIMONT. We are a leading jeweller and glassware store in Singapore and roxy sqaure.",
+    "url": "https://www.simont.store",
+    "logo": "%PUBLIC_URL%/icon.png",
+    "telephone": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Roxy Square 1 50 East Coast Road",
+      "addressLocality": "Singapore",
+      "postalCode": "",
+      "addressCountry": "SG"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "",
+      "longitude": ""
+    },
+    "sameAs": []
+  }
