@@ -1,0 +1,199 @@
+.canva-embed {
+  width: 100% !important;
+}
+
+.pstyle {
+  font-size: 140%;
+}
+
+.subcontent:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  overflow: hidden;
+  background: white;
+}
+
+
+.pstyle:hover {
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  overflow: hidden;
+  background: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .subcontent {
+    font-size: 50%;
+  }
+
+  .maps {
+    width: 100% !important;
+  }
+  .pstyle {
+    font-size: 140%;
+  }
+
+  .GridMaps {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .grid1maps,
+  .grid2maps {
+    width: 100% !important;
+    height: 400px !important;
+    border: none !important;
+  }
+  .canva-embed {
+    width: 100% !important;
+  }
+
+  .contactBody {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .subcontent {
+    font-size: 40%;
+  }
+
+  .maps {
+    width: 100% !important;
+  }
+  .pstyle {
+    font-size: 100%;
+  }
+
+  .GridMaps {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .grid1maps,
+  .grid2maps {
+    width: 100% !important;
+    height: 400px !important;
+    border: none !important;
+  }
+  .canva-embed {
+    width: 100% !important;
+  }
+
+  .contactBody {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 412px) {
+  .maps {
+    width: 100% !important;
+  }
+  .pstyle {
+    font-size: 80%;
+  }
+
+  .GridMaps {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .grid1maps,
+  .grid2maps {
+    width: 100% !important;
+    height: 400px !important;
+    border: none !important;
+  }
+  .canva-embed {
+    width: 100% !important;
+  }
+
+  .contactBody {
+    width: 70% !important;
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 430px) {
+
+  .subcontent {
+    font-size: 40%;
+  }
+
+  .maps {
+    width: 100% !important;
+  }
+  .pstyle {
+    font-size: 100%;
+  }
+
+  .GridMaps {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .grid1maps,
+  .grid2maps {
+    width: 100% !important;
+    height: 400px !important;
+    border: none !important;
+  }
+  .canva-embed {
+    width: 100% !important;
+  }
+
+  .contactBody {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .maps {
+    width: 100% !important;
+  }
+  .pstyle {
+    font-size: 80%;
+  }
+
+  .GridMaps {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .grid1maps,
+  .grid2maps {
+    width: 100% !important;
+    height: 400px !important;
+    border: none !important;
+  }
+  .canva-embed {
+    width: 100% !important;
+  }
+
+  .contactBody {
+    width: 90% !important;
+    padding: 10px !important;
+  }
+}
+
+.storeButton:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+}

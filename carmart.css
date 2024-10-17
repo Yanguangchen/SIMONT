@@ -1,0 +1,39 @@
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.carmart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #d50000;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  animation: blink 1.3s infinite;
+  overflow: auto;
+}
+
+.carmart-wrapper:hover {
+  transition: ease-in-out 0.5s;
+  transform: scale(1.3);
+}
+
+.carmart-link {
+  color: white;
+  width: 100%;
+  text-decoration: none;
+}
+
+.carmart-text {
+  color: white;
+  text-align: center;
+  font-size: 130%;
+}
